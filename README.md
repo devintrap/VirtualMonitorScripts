@@ -35,7 +35,7 @@ cd VirtualMonitors
 ### Assign to keyboard shortcut
 In gnome you can do this [that way](https://help.gnome.org/users/gnome-help/stable/keyboard-shortcuts-set.html.en#custom)
 
-![keyboard shortcut](https://github.com/devintrap/virtualmonitorsscripts/blob/main/keyboard_shortcut.webp?raw=true)
+![keyboard shortcut](https://raw.githubusercontent.com/devintrap/VirtualMonitorScripts/main/keyboard_shortcut.webp)
 
 
 ### Check own xrandr onfiguration and modify 1 - 3 sh scripts.
