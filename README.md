@@ -2,7 +2,7 @@
 
 This repository contains a set of scripts designed to switch between different xrandr setups:
 
-1. `1.sh` - Only the laptop monitor.
+1. `1.sh` - Only the laptop display.
 2. `2.sh` - Two external monitors.
 3. `3.sh` - A setup with virtual monitors for the Immersed application.
 
