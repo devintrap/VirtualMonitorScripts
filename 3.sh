@@ -10,10 +10,9 @@ xrandr --output VIRTUAL2 --mode 1920x1080_60.00 --right-of VIRTUAL1
 xrandr --output VIRTUAL3 --mode 1920x1080_60.00 --right-of VIRTUAL2
 xrandr --output VIRTUAL2 --primary
 xrandr --output eDP1 --mode 1920x1080 --brightness 0.0 --above VIRTUAL2 
-# xrandr --output eDP1 --brightness 0.0
-# xrandr --output eDP1 --off
 xrandr --output DP1 --off
 xrandr --output HDMI1 --off
 xrandr --output HDMI2 --off
 #immersed start
-screen -S immersed -dm /home/pawel/Projects/GitHub/VirtualMonitors/Immersed-x86_64.AppImage
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+screen -S immersed -dm $DIR/Immersed-x86_64.AppImage

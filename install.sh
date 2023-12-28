@@ -11,7 +11,7 @@ if [ -e /etc/X11/xorg.conf.d/20-intel.conf ]
 then
  echo "20-intel.conf exist"
 else
- sudo cp 20-intel.conf /etc/X11/xorg.conf.d/20-intel.conf
+ sudo cp ./xorg.conf.d/20-intel.conf /etc/X11/xorg.conf.d/20-intel.conf
  echo "You must reboot or reload current X!! session to finish setup." 
 fi 
 

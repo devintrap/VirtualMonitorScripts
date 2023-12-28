@@ -1,5 +1,6 @@
+#immersed kill
 screen -X -S immersed quit
-
+#xrandr
 xrandr --output eDP1 --off
 xrandr --output DP1 --mode "1920x1080" --left-of HDMI2
 xrandr --output HDMI1 --off
